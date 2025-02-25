@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/96288241e8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>SportsConcert</title>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <div class="header-desktop">
+                <div class="header-desktop-logo">
+                    <button><img src="./assets/Vector.png" alt="logomarca Sports"></button>
+                </div>
+                <nav class="header-desktop-group">
+                    <ul class="menu">
+                        <li class="header-desktop-products" class="menu"><a href="#">Products</a></li>
+                        <li class="header-desktop-track" class="menu"><a href="#">track Order</a></li>
+                        <li class="header-desktop-contact" class="menu"><a href="https://github.com/Paulo-Borges" target="_blank">Contact</a></li>
+                        <li class="header-desktop-about" class="menu"><a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">About Us</a></li>
+                      </ul>
+                </nav>
+            </div>
+            <div class="header-icon">
+                <button><img src="./assets/reorder.png" alt="menu"></button>
+                <button><img src="./assets/Vector.png" alt="logomarca Sports"></button>
+                <button><img src="./assets/shopping_cart.png" alt="carrinho de compras"></button>
+                
+            </div>
+        
+                <div class="input-container">
+    
+                    <div class="box-input-filter">
+                        <span  for="name">All</span>
+                        <button ><i class="fa-solid fa-sort-down"></i></button>
+                    </div>
+                    <div class="box-input">
+                    <input class="box-search" type="text" id="name" placeholder="|   Running Shoes">
+                    <span class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-2x"></i></button></span>
+                </div>
+                </div>
+               
+        </header>
+        <div class="full">
+        <div class="input-container-desktop">
+
+            <div class="input-desktop-shoes">
+
+                <div class="box-input-filter">
+                    <span  for="name">Shoes</span>
+                    <button ><i class="fa-solid fa-sort-down fa-sm"></i></button>
+                    <div class="regua-desktop"></div>
+                    <input class="box-search" type="text" id="name" placeholder="   running Shoes">
+                </div>
+
+                <div class="box-input-desktop">
+                    <span class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-lg"></i></button></span>
+                    <div class="regua-desktop"></div>
+                    <span class="input-label" for="name"><button><i class="fa-solid fa-magnifying-glass fa-lg"></i></button></span>
+                </div>
+           </div>
+
+           <div class="input-desktop-cart">
+            <span class="input-label" for="name"><button><i class="fa-solid fa-cart-shopping fa-lg"></i></button></span>
+            <span>View Cart</span>
+           </div>
+
+        </div>
+    </div>
+        <section class="running">
+            <div class="results">
+                <h2>"Running Shoes"</h2>
+                <h3>288 Results</h3>
+            </div>
+            <div class="runnings">
+                
+                <div class="runnings-button">
+                    <button><i class="fa-solid fa-filter"></i></button>
+                    <h2>Filter</h2>
+                </div>
+                
+                <div class="regua"></div>
+                <div class="runnings-button">
+                    <button><img src="./assets/sort.png" alt=""></button>
+                    <h2>Sort By</h2>
+                </div>
+                
+
+            </div>  
+        </section>
+
+       <section class="all">
+        <div >
+            <button >
+                All 
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div>
+            <button>
+                Running Shoes
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div>
+            <button>
+                Red
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div>
+            <button>
+                in Stock
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div>
+            <button>
+                Black
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </section>
+    <section class="search">
+        <div class="filters">
+            <div class="filters-logo">
+                <span><i class="fa-solid fa-filter fa-xs"></i></span>
+                <span>Filters</span>
+            </div>
+            
+            <div class="filters-regua"></div>
+            <div class="filter-clear">
+                <span>Applied Filters</span>
+                <span>clear all</span>
+            </div>
+            <section class="filter-all">
+                <div >
+                    <button >
+                        All
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+        
+                <div>
+                    <button class="filter-all-running">
+                        Running Shoes
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+        
+                <div>
+                    <button>
+                        Red
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                </section>
+                <div class="filters-regua"></div>
+                <div class="filter-categories">
+                    <div class="category">
+                        <span>Category</span>
+                        <span><img src="./assets/key_arrow_down.png" alt=""></span>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="all">
+                        <label for="" value="all">All</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="running">
+                        <label for="" value="running">Runnings Shoes</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="tres">
+                        <label for="" value="tres">Category 3</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="quatro">
+                        <label for="" value="quatro">Category 4</label>
+                    </div>
+                    
+
+                </div>
+                <div class="filters-regua"></div>
+                <div class="filters-stock">
+                    <div class="filter-stock">
+                        <span>Stock Status</span>
+                        <span><img src="./assets/key_arrow_down.png" alt=""></span>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="inStock">
+                        <label for="" value="inStock">in Stock</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="ofStock">
+                        <label for="" value="ofStock">Out of Stock</label>
+                    </div>
+                    
+
+                </div>
+            <div class="filters-regua"></div>
+                <div class="filter-size">
+                    <span>Size</span>
+                    <span><img src="./assets/keyboard_arrow_down.png" alt=""></i></span>
+                </div>
+            <div class="filters-regua"></div>
+                <div>
+                    <div class="filter-color">
+                        <span>Color</span>
+                        <span><img src="./assets/key_arrow_down.png" alt=""></span>
+                    </div>
+                    <div class="filter-check">
+                        <div class="filter-check-red">
+                            <input type="checkbox" id="red">
+                        </div>
+                        <div class="filter-check-orange">
+                            <input type="checkbox" id="orange">
+                        </div>
+                        <div class="filter-check-green">
+                            <input type="checkbox" id="green">
+                        </div>
+                        <div class="filter-check-blue">
+                            <input type="checkbox" id="blue">
+                        </div>
+                        <div class="filter-check-SlateBlue">
+                            <input type="checkbox" id="SlateBlue">
+                        </div>
+                        <div class="filter-check-pink">
+                            <input type="checkbox" id="pink">
+                        </div>
+                        <div class="filter-check-purple">
+                            <input type="checkbox" id="purple">
+                        </div>
+                        <div class="filter-check-DarkBlue">
+                            <input type="checkbox" id="DarkBlue">
+                        </div>
+                        <div class="filter-check-Salmon">
+                            <input type="checkbox" id="Salmon">
+                        </div>
+                        <div class="filter-check-black">
+                            <input type="checkbox" id="black">
+                        </div>
+                        <div class="filter-check-transparent">
+                            <input type="checkbox" id="transparent">
+                        </div>
+                   
+                </div>
+                </div>
+                </div>
+         <div class="search-regua"></div>
+        <div class="searchs">
+        <div class="home-search">
+            <div class="home-search-results">
+                <div>Home / Search / Running Shoes</div>
+                <div class="home-search-results-shoes">"Running Shoes"___<span>288 results</span></div>
+            </div>
+            <div class="home-search-sort">
+                <span><img src="./assets/sort.png" alt=""></span>
+                <span>Sort by</span>
+            </div>
+        </div>
+       <section class="shoes">
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="shoes-stock">
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+ 
+
+        <div class="relative shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">  
+            </div>
+            <div class="absolute">
+                <img src="./assets/Group 20.png" alt=""> 
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <div class="shoes6">
+            <h5>
+                $200
+               </h5>
+               <h6>
+                $400
+               </h6>
+           </div>
+           
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+ 
+
+        <div class="relative shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">  
+            </div>
+            <div class="absolute">
+                <img src="./assets/Group 20.png" alt=""> 
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <div class="shoes6">
+            <h5>
+                $200
+               </h5>
+               <h6>
+                $400
+               </h6>
+           </div>
+           
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="shoes-container shoes-star">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar shoes-star">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button ><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+ 
+       </section>
+       <section class="next-pageButton desktop-next-pageButton">
+       <div id="next">
+           <span>Next Page</span>
+           <button><i class="fa-solid fa-right-long"></i></button>
+        
+       </div>
+
+       <div class="pageButtons">
+        <button>01</button>
+        <button class="clear">of 55</button>
+        <button><i class="fa-solid fa-chevron-left"></i></button>
+        <button><i class="fa-solid fa-chevron-right"></i></button>
+       </div>
+    </section>
+        </div>
+       </section>
+
+       <footer class="footer">
+        <div >
+        <h2>Sports | Search Page | Designed by <a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/" target="_blank">Dev Borges</a></h2>
+        </div>
+       </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
