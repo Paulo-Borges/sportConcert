@@ -14,6 +14,7 @@
     --background-active: #ffc831;
     --background-container: #fff;
     --border-hover: rgb(90, 183, 245);
+    --background-regua: #eceff1;
 }
 body {
     display : flex;
@@ -770,4 +771,275 @@ button.clear {
     .toCart button {
         font-size: 10px;
     }
+ }
+ @media (min-width: 541px) and (max-width: 768px){ 
+    .header {
+        height: 4.75rem;
+    }
+    .header-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-desktop-logo button{
+        background: transparent;
+        border: none;
+    }
+    .header-desktop-group ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 1.25rem;
+    }
+   .menu li a {
+    position: relative;
+   }
+   .menu li a::after {
+        content: '';
+        height: 2px;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: var(--background-active);
+        transition: width 0.5s ease;
+    }
+    .menu li a:hover::after {
+        width: 40%;
+    }
+    .container {
+        width: 100%;
+    }
+    .header-icon {
+        display: none;
+    }
+    .input-container {
+        display: none;
+    }
+    .input-container-desktop {
+        display: flex;
+        gap: 24px;
+        margin-top: 40px;
+        justify-content: space-between;
+        align-items: center;
+        width: 42rem;
+    }
+    .input-desktop-shoes {
+        display: flex;
+        padding: 6px 12px 0px 30px;
+        background: var(--background-regua);
+        justify-content: space-between;
+        flex: 1;
+    }
+    .box-input-filter {
+        align-items: center;
+        gap: 10px;
+    }
+    .box-input-filter button {
+        background: transparent;
+    }
+    .box-input-desktop {
+        display: flex;
+        gap: 10px;
+    }
+    .box-input-desktop button {
+        border: none;
+    }
+    .box-search {
+            background: transparent;
+    }
+    .regua-desktop {
+            display: block;
+            margin: 0 auto;
+            width: .1%;
+            height: 30px;
+            background: var(--background-logo);
+    }
+    .input-desktop-cart {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        cursor: pointer;
+        padding: 9px 10px;
+        background: var(--background-active);
+        border: solid 1px transparent;
+    }
+    .input-desktop-cart:hover {
+        border: solid 1px var(--border-hover);
+    }
+    .input-desktop-cart button {
+        background: transparent;
+        border: none;
+    }
+    .running {
+        display: none;
+    }
+    .all {
+        display: none;
+    }
+    .search {
+        display: flex;
+        width: 42rem;
+        gap: 8px;
+        margin-top: 30px;
+    }
+    .filters {
+        width: 12.5rem;
+    }
+    .filters-logo {
+        display: flex;
+        gap: 8px;
+    }
+    .filters-regua { 
+        display: block;
+        margin: 0 auto;
+        height: .1%;
+        background:var(--background-regua);
+        width: 12.5rem;
+    }
+    .filter-clear {
+        display: flex;
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+    .filter-clear span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .filter-clear span:last-child {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        text-decoration: underline;
+    }
+    .filter-all {
+        display: flex;
+        width: 17rem;
+        margin-bottom: 16px;
+        gap: 16px;
+    }
+    .filter-all button{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 12px;
+        letter-spacing: 0.4px;
+        border: none;
+        padding: 0px 8px 0px 0px;
+        gap: 10px;
+    }
+    .category span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .category img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .filter-categories label {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+    .filter-stock span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .filters-stock label {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+    .filter-color span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .search-regua {
+        display: block;
+        margin: 0 auto;
+        height: 100rem;
+        background: var(--background-regua);
+        width: .1%;
+    }
+    .searchs {
+        width: 33.7rem;
+    }
+    .home-search-sort {
+        display: flex;
+        justify-content: center;
+        padding: 0px 8px;
+        border: solid 1px var(--background-logo);
+    }
+    .home-search-sort img {
+        margin-top: 8px;
+    }
+    .foto img {
+         width: 10rem;
+         height: 10rem;
+    }
+    .shoes-container {
+        width: 9.3rem;
+        gap: 15px;
+    }
+    .shoes {
+        display: flex;
+        max-width: 33.7rem;
+        flex-wrap: wrap;
+
+    }
+    .shoes-container h2 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .shoes-star {
+        width: 9.3rem;
+    }
+    .add {
+        width: 9.3rem;
+    }
+    .toCart button {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+    }
+    .heart {
+        padding: 5px 0px;
+    }
+    .pageButtons {
+        margin-top: 40px;
+    }
+    .desktop-next-pageButton {
+        display: flex;
+        /* padding: 0px 36px 0px 0px; */
+        justify-content: end;
+        gap: 10px;
+        flex-direction: row;
+    }
+    
  }
