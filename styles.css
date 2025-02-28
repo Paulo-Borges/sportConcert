@@ -1015,8 +1015,18 @@ button.clear {
         white-space: nowrap;
         overflow: hidden;
     }
-    .shoes-star {
-        width: 9.3rem;
+    .stock {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .green {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .red {
+        font-size: 8px;
+        line-height: 10px;
     }
     .add {
         width: 9.3rem;
@@ -1028,8 +1038,9 @@ button.clear {
         line-height: 22px;
         letter-spacing: 0.5px;
     }
-    .heart {
-        padding: 5px 0px;
+    .heart img {
+        width: 35px;
+        height: 35px;
     }
     .pageButtons {
         margin-top: 40px;
