@@ -1108,8 +1108,9 @@ button.clear {
     }
     .input-desktop-shoes {
         display: flex;
-        padding: 6px 12px 0px 30px;
+        padding: 0px 12px 0px 30px;
         background: var(--background-regua);
+        align-items: center;
         justify-content: space-between;
         flex: 1;
     }
@@ -1153,7 +1154,7 @@ button.clear {
         background: transparent;
         border: none;
     }
-    /* .running {
+    .running {
         display: none;
     }
     .all {
@@ -1161,12 +1162,12 @@ button.clear {
     }
     .search {
         display: flex;
-        width: 790px;
-        gap: 8px;
-        margin-top: 30px;
+        width: 40rem;
+        gap: 0.5rem;
+        margin-top: 1.8rem;
     }
     .filters {
-        width: 240px;
+        width: 15rem;
     }
     .filters-logo {
         display: flex;
@@ -1176,8 +1177,8 @@ button.clear {
         display: block;
         margin: 0 auto;
         height: .1%;
-        background: #cccccc;
-        width: 240px;
+        background: var(--background-regua);
+        width: 15rem;
     }
     .filter-clear {
         display: flex;
@@ -1201,7 +1202,7 @@ button.clear {
     }
     .filter-all {
         display: flex;
-        width: 240px;
+        width: 15rem;
         margin-bottom: 16px;
         gap: 16px;
     }
@@ -1218,8 +1219,8 @@ button.clear {
         letter-spacing: 0.15px;
     }
     .category img {
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
     .filter-categories label {
         font-family: Poppins;
@@ -1228,7 +1229,7 @@ button.clear {
         line-height: 24px;
         letter-spacing: 0.5px;
     }
-    .filter-stock span:first-child {
+     .filter-stock span:first-child {
         font-family: Montserrat;
         font-weight: 400;
         font-size: 16px;
@@ -1252,55 +1253,40 @@ button.clear {
     .search-regua {
         display: block;
         margin: 0 auto;
-        height: 1615px;
-        background: #cccccc;
+        height: 100rem;
+        background: var(--background-regua);
         width: .1%;
     }
     .searchs {
-        width: 550px;
+        width: 37rem;
+    }
+    .home-search {
+        justify-content: center;
+        align-items: center;
+        width: 24rem;
+    }
+    .home-search-results {
+        width: 23rem;
     }
     .home-search-sort {
-        display: flex;
-        justify-content: center;
-        padding: 0px 8px;
-        border: solid 3px #1e1e1e;
+       
+        width: 6rem;
     }
-    .home-search-sort img {
-        margin-top: 8px;
-    }
-    .foto img {
-         width: 160px;
-         height: 160px;
-    }
-    .shoes-container {
-        width: 150px;
-        gap: 15px;
-    }
-    .shoes {
-        display: flex;
-        max-width: 550px;
-        flex-wrap: wrap;
-
-    }
-    .shoes-container h2 {
+    .home-search-sort span:last-child{
         font-family: Poppins;
         font-weight: 500;
-        font-size: 13px;
-        line-height: 22px;
-        letter-spacing: 0.5px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+        font-size: 12px;
+        line-height: 14px;
+        width: 5rem;
     }
-    .add {
-        width: 150px;
+    .pageButtons {
+        margin-top: 40px;
     }
-    .toCart button {
-        font-family: Poppins;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 22px;
-        letter-spacing: 0.5px;
-    } */
+    .desktop-next-pageButton {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        flex-direction: row;
+    }
     
  }
