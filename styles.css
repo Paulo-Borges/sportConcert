@@ -2138,3 +2138,356 @@ button.clear {
   }  
   
 }
+@media (min-width: 1441px) and (max-width: 1920px){ 
+    .header {
+        display: none;
+  }
+    .container {
+      width: 100%;
+  }
+  .header-icon {
+      display: none;
+  }
+   .input-container {
+      display: none;
+  }
+     .full {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120rem;
+        height: 10rem;
+        background: var(--background-regua);
+    } 
+   .input-container-desktop {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      justify-content: space-between;
+      align-items: center;
+      width: 71.25rem;
+  }
+.input-desktop-shoes {
+    display: flex;
+    max-width: 65.62rem;
+    height: 3.5rem;
+    padding: 6px 12px 0px 30px;
+    background: white;
+    justify-content: space-between;
+    flex: 1;
+  }
+.box-input-filter {
+       background: var( --background-container);
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+  }
+  .box-input-filter span{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.box-search::placeholder {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--background-logo);
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+ .box-input-filter button {
+      background: transparent;
+  }
+  .box-input-desktop {
+      display: flex;
+      cursor: pointer;
+      width: 5.3rem;
+      justify-content: space-between;
+      gap: 10px;
+  }
+  .box-input-desktop button {
+      border: none;
+      background: transparent;
+  }
+  .box-search {
+          background: transparent;
+  }
+  .regua-desktop {
+    display: block;
+    margin: 0 auto;
+    width: .1%;
+    height: 30px;
+    background: var(--background-logo);
+}
+
+.input-desktop-cart {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px 10px;
+    background: var(--background-active);
+    border: solid 1px transparent;
+}
+.input-desktop-cart:hover {
+    border: solid 1px var(--border-hover);
+}
+.input-desktop-cart button {
+    background: transparent;
+    border: none;
+}
+.input-desktop-cart span:last-child {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--background-logo);
+    line-height: 24px;
+    letter-spacing: 1.25px;
+}
+
+
+ 
+ .running {
+      display: none;
+  }
+  .all {
+      display: none;
+  }
+ .search {
+      display: flex;
+      width: 71.25rem;
+      gap: 0.5rem;
+      margin-top: 2rem;
+    /*  }
+  .filters {
+      width: 15rem;
+  }
+  .filters-logo {
+      display: flex;
+      gap: 8px;
+  }
+   .filters-regua { 
+      display: block;
+      margin: 0 auto;
+      height: .1%;
+      background: var(--background-regua);
+      width: 15rem;
+  }
+  .filter-clear {
+      display: flex;
+      margin-top: 16px;
+      justify-content: space-between;
+  }
+  .filter-clear span:first-child {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+  }
+  .filter-clear span:last-child {
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.4px;
+      text-decoration: underline;
+  }
+  .filter-all {
+      display: flex;
+      width: 15rem;
+      margin-bottom: 16px;
+      gap: 16px;
+  }
+  .filter-all button{
+      border: none;
+      padding: 0px 8px 0px 0px;
+      gap: 10px;
+  }
+  .category span:first-child {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+  }
+  .category img {
+      width: 1.5rem;
+      height: 1.5rem;
+  }
+  .filter-categories label {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+  }
+   .filter-stock span:first-child {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+  }
+  .filters-stock label {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+  }
+  .filter-color span:first-child {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+  }
+  .search-regua {
+      display: block;
+      margin: 0 auto;
+      height: 100rem;
+      background: var(--background-regua);
+      width: .1%;
+  }
+  .filter-color-container {
+    width: 100%;
+  }
+  .searchs {
+      width: 100%;
+  }
+  .home-search {
+      width: 55rem;
+  }
+  .home-search-results {
+      width: 30rem;
+  }
+  .home-search-results-busca {
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: var(--background-logo);
+    line-height: 20px;
+    letter-spacing: 0.25px;
+  }
+  .home-search-results-busca span{
+    text-decoration: underline;
+  }
+  .home-search-results-shoes {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
+  .home-search-results-shoes span{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+  }
+  .home-search-sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.8rem;
+  }
+  .home-search-sort img {
+    width: 24px;
+    height: 24px;
+}
+  .home-search-sort span:last-child{
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 1.25px;
+  }
+  .shoes {
+   display: flex;
+   gap: 1.37rem;
+   flex-wrap: wrap;
+  }
+  .foto img {
+    width: 16.93rem;
+    height: 16.93rem;
+  }
+  .shoes-container h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    width: 16rem;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  .shoes-container span {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  .shoes-star img {
+    width: 18px;
+    height: 18px;
+  }
+  .shoes-container h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+  }
+  .shoes-container h5 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .shoes-container h6 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+  .absolute img {
+    width: 48px;
+    height: 48px;
+  }
+  .add {
+    width: 100%;
+    gap: 15px;
+  }
+  .toCart button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 40px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+  }
+  .heart button {
+    width: 40px;
+    height: 40px;
+  }
+  .heart  {
+    width: 24px;
+    height: 24px;
+  }
+   .pageButtons {
+      margin-top: 40px;
+  }
+  .desktop-next-pageButton {
+      display: flex;
+      justify-content: end;
+      gap: 10px;
+      flex-direction: row;
+  }   */
+  
+}
