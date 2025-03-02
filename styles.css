@@ -1904,6 +1904,8 @@ button.clear {
   }
  .search {
       display: flex;
+      justify-content: start;
+      align-item: start;
       width: 71.25rem;
       gap: 0.5rem;
       margin-top: 2rem;
@@ -2159,19 +2161,27 @@ button.clear {
         height: 10rem;
         background: var(--background-regua);
     } 
+    .box-input-desktop .regua-desktop {
+        display: none;
+    }
+    .input-label-xmark {
+        display: none;
+    }
    .input-container-desktop {
       display: flex;
       gap: 1.5rem;
       margin-top: 2.5rem;
       justify-content: space-between;
       align-items: center;
-      width: 71.25rem;
+      width: 78.12rem;
   }
 .input-desktop-shoes {
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 65.62rem;
     height: 3.5rem;
-    padding: 6px 12px 0px 30px;
+    padding: 6px 0px 0px 30px;
     background: white;
     justify-content: space-between;
     flex: 1;
@@ -2202,13 +2212,12 @@ button.clear {
   }
   .box-input-desktop {
       display: flex;
-      cursor: pointer;
-      width: 5.3rem;
       justify-content: space-between;
-      gap: 10px;
   }
   .box-input-desktop button {
       border: none;
+      padding: 0px 20px;
+      cursor: pointer;
       background: transparent;
   }
   .box-search {
@@ -2221,7 +2230,6 @@ button.clear {
     height: 30px;
     background: var(--background-logo);
 }
-
 .input-desktop-cart {
     display: flex;
     gap: 8px;
@@ -2246,9 +2254,6 @@ button.clear {
     line-height: 24px;
     letter-spacing: 1.25px;
 }
-
-
- 
  .running {
       display: none;
   }
@@ -2257,11 +2262,13 @@ button.clear {
   }
  .search {
       display: flex;
-      width: 71.25rem;
+      padding: 0px 80px;
+      width: 100%;
+      height: 67.5rem;
       gap: 0.5rem;
       margin-top: 2rem;
-    /*  }
-  .filters {
+    }
+    .filters {
       width: 15rem;
   }
   .filters-logo {
@@ -2287,7 +2294,7 @@ button.clear {
       line-height: 24px;
       letter-spacing: 0.15px;
   }
-  .filter-clear span:last-child {
+.filter-clear span:last-child {
       font-family: Poppins;
       font-weight: 500;
       font-size: 12px;
@@ -2355,13 +2362,18 @@ button.clear {
   .filter-color-container {
     width: 100%;
   }
-  .searchs {
+  .filter-check input[type="checkbox"] {
+      border-radius: 0px;
+      width: 24px;
+      height: 24px;
+  }
+   .searchs {
       width: 100%;
   }
   .home-search {
-      width: 55rem;
+      width: 93rem;
   }
-  .home-search-results {
+/*  .home-search-results {
       width: 30rem;
   }
   .home-search-results-busca {
